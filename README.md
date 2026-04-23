@@ -253,5 +253,5 @@ From the saliency maps: the model learns to attend most strongly to the **z comp
 ---
 
 <p align="center">
-  Made with ❤️ · Python · PyTorch · NumPy · Matplotlib
+  Made with ❤️ 
 </p>
