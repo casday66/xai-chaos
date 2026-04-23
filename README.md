@@ -18,7 +18,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Problem Statement](#-problem-statement)
 - [Method](#-method)
@@ -31,7 +31,7 @@
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 The **Lorenz-63** system is a canonical chaotic dynamical system exhibiting:
 - **Sensitive dependence on initial conditions (SDIC)** — tiny perturbations grow exponentially
@@ -48,7 +48,7 @@ Three forecasting paradigms are compared:
 
 ---
 
-## 🔬 Method
+##  Method
 
 ### Lorenz System
 
@@ -76,7 +76,7 @@ Input(3) → Linear(32) → Tanh → Linear(32) → Tanh → Linear(3)
 ```
 Trained to predict next state from current state. No structural physics prior.
 
-#### 3. Hybrid Model ⭐
+#### 3. Hybrid Model 
 ```
 ŷ_{t+1} = RK4(y_t)  +  f_residual(y_t ; θ)
            └─ physics ─┘   └─── learned ────┘
@@ -132,7 +132,7 @@ Computed for each step in the test trajectory. Reveals which state dimensions (x
 
 ---
 
-## 📈 Plots
+##  Plots
 
 ### Trajectory Comparison
 *All models tracked against ground truth across x, y, z components*
@@ -162,7 +162,7 @@ Computed for each step in the test trajectory. Reveals which state dimensions (x
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ```bash
 # Clone
@@ -243,7 +243,7 @@ From the saliency maps: the model learns to attend most strongly to the **z comp
 
 ---
 
-## 📚 References
+##  References
 
 1. Lorenz, E.N. (1963). *Deterministic nonperiodic flow.* Journal of Atmospheric Sciences, **20**(2), 130–141.
 2. Rackauckas, C. et al. (2020). *Universal Differential Equations for Scientific Machine Learning.* arXiv:2001.04385.
