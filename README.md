@@ -34,9 +34,9 @@
 ##  Problem Statement
 
 The **Lorenz-63** system is a canonical chaotic dynamical system exhibiting:
-- **Sensitive dependence on initial conditions (SDIC)** — tiny perturbations grow exponentially
-- A **strange attractor** — bounded, fractal geometry in phase space
-- A **positive Lyapunov exponent** (~0.9 bit/s) — making long-horizon prediction provably intractable
+- **Sensitive dependence on initial conditions (SDIC)** - tiny perturbations grow exponentially
+- A **strange attractor** - bounded, fractal geometry in phase space
+- A **positive Lyapunov exponent** (~0.9 bit/s) - making long-horizon prediction provably intractable
 
 Three forecasting paradigms are compared:
 
