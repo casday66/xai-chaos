@@ -1,13 +1,6 @@
 # 🌀 xai-chaos — Hybrid Physics-AI for Chaotic Systems
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?logo=numpy"/>
-  <img src="https://img.shields.io/badge/License-MIT-green"/>
-  <img src="https://img.shields.io/badge/CPU-Compatible-brightgreen"/>
-  <img src="https://img.shields.io/badge/XAI-Gradient%20Saliency-purple"/>
-</p>
+
 
 <p align="center">
   <b>Combining physics-based priors with neural residual learning to forecast chaotic systems — with explainable AI.</b>
